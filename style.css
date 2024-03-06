@@ -1,31 +1,36 @@
-<!DOCTYPE html> html>
-<html lang="en">
-    <
-<head>
-    <style>
-        body{
-            background-color:palegreen
-    
-    
+@import url:()
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
 
-        }
-        header{
-            padding:  32px;
-            border-bottom: 2px salmon;
-            background-color: black;
-            
+ }   
+    
+        
+    body{
+        background-color:gray
+        
+   }
+    header{
+        padding:  32px;
+        border-bottom: 2px salmon;
+        background-color:gray;
 
-        }
-        header div a {
-            color: white;
-            font-size: 24px;
-            line-height:  32px;
-            margin: 0 16px;
-            text-decoration: none;
-            font-family: 'Roboto',sans-serif;  
-        }
-        
-        
-    
-    
-    </style>
+    }
+    .links {
+        text-align: center;
+    }
+
+    .links a{
+        color:greenyellow;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 16px;
+        text-decoration: none;
+
+    }
+    .lonks a:hover{
+        color:black;
+    transition: color 700ms;
+
+    }
