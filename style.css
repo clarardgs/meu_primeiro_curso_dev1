@@ -1,3 +1,4 @@
+<style>
 *{
   margin: 0;
   padding: 0;
@@ -6,21 +7,19 @@
  }   
     
         
-    body{
+ body{
         background-color:gray
         
    }
-    header{
+   header{
         padding:  32px;
         border-bottom: 2px salmon;
         background-color:gray;
-
     }
-    .links {
+    header div {
         text-align: center;
     }
-
-    .links a{
+    header div a{
         color:greenyellow;
         font-size: 20px;
         line-height: 30px;
@@ -28,8 +27,7 @@
         text-decoration: none;
 
     }
-    .lonks a:hover{
+ header div a:hover{
         color:black;
-    transition: color 700ms;
-
+        transition: color 700ms;
     }
